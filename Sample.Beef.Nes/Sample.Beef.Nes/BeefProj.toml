@@ -1,0 +1,6 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Nes"
+TargetType = "BeefLib"
+StartupObject = "Sample.Beef.Nes.Program"

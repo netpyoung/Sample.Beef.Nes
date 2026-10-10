@@ -1,0 +1,14 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Nes.App_SDL"
+StartupObject = "Sample.Beef.Nes.App_SDL.Program"
+
+[Dependencies]
+corlib = "*"
+"Sample.Beef.Nes" = "*"
+"SDL3-Beef.git" = {Git = "https://github.com/SedulousWorks/SDL3-Beef.git"}
+
+[Configs.Debug.Win64]
+DebugCommandArguments = ".roms/mario.nes"
+DebugWorkingDirectory = "$(WorkspaceDir)"

@@ -1,0 +1,16 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Nes.Tests"
+TargetType = "BeefTest"
+StartupObject = "Sample.Beef.Nes.Tests.Program"
+
+[Dependencies]
+corlib = "*"
+"Sample.Beef.Nes" = "*"
+
+[Configs.Debug.Win64]
+DebugWorkingDirectory = "$(WorkspaceDir)"
+
+[Configs.Test.Win64]
+DebugWorkingDirectory = "$(WorkspaceDir)"

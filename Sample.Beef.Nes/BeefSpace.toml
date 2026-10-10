@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Workspace]
+StartupProject = "Sample.Beef.Nes.App_Raylib"
+
+[Projects]
+"Sample.Beef.Nes" = {Path = "Sample.Beef.Nes"}
+"Sample.Beef.Nes.App_SDL" = {Path = "Sample.Beef.Nes.App_SDL"}
+"Sample.Beef.Nes.Tests" = {Path = "Sample.Beef.Nes.Tests"}
+"SDL3-Beef.git" = {Git = "https://github.com/SedulousWorks/SDL3-Beef.git"}
+"Sample.Beef.Nes.App_Raylib" = {Path = "Sample.Beef.Nes.App_Raylib"}
+raylib-beef = {Git = "https://github.com/Starpelly/raylib-beef.git?path=raylib-beef"}

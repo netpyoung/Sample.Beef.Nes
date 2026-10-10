@@ -1,0 +1,10 @@
+namespace Sample.Beef.Nes.ImplApu;
+
+enum E_CHANNEL_STATUS : u8
+{
+    NONE = 0b0000'0000, // 0x00
+    STATUS_PULSE1 = 0b0000'0001, // 0x01
+    STATUS_PULSE2 = 0b0000'0010, // 0x02
+    STATUS_TRIANGLE = 0b0000'0100, // 0x04
+    STATUS_NOISE = 0b0000'1000, // 0x08
+}

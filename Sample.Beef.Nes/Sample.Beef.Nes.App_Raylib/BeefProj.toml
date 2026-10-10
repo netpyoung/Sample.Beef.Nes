@@ -1,0 +1,18 @@
+FileVersion = 1
+
+[Project]
+Name = "Sample.Beef.Nes.App_Raylib"
+StartupObject = "Sample.Beef.Nes.App_Raylib.Program"
+
+[Dependencies]
+corlib = "*"
+raylib-beef = {Git = "https://github.com/Starpelly/raylib-beef.git?path=raylib-beef"}
+"Sample.Beef.Nes" = "*"
+
+[Configs.Debug.Win64]
+DebugCommandArguments = ".roms/mario.nes"
+DebugWorkingDirectory = "$(WorkspaceDir)"
+
+[Configs.Release.Win64]
+DebugCommandArguments = ".roms/mario.nes"
+DebugWorkingDirectory = "$(WorkspaceDir)"
